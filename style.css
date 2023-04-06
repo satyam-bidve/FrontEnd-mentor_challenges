@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+  }
+  
+.main_div{
+    margin: 60px;
+    width: 650px;
+    height: 500px;
+    border-radius: 15px;
+    display: flex;
+    box-shadow: 2px 5px 8px -1px rgba(0,0,0,0.75);
+    font-family: Hanken Grotesk;
+    
+    
+    overflow: hidden;
+}
+
+.right_div{
+    width: 100%;
+    height: 100%;
+    
+    border-radius: 15px;
+    margin-left: 15px;
+    background-color: rgb(255, 253, 251);
+  
+    
+   
+}
+
+
+.left_div{
+    width: 100%;
+    height: 100%;
+    
+    border-radius: 15px;
+    background: linear-gradient(.25turn, #2e2be9, 50%, #534bf7);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.score{
+    margin-top: 2rem;
+    width: 50%;
+    height: 30%;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(.50turn, #0f0da3, 20%, #4a42e7);
+    
+    
+}
+#summery-score{
+    opacity: 0.6;
+    margin: 10%;
+   
+    text-align: center;
+  
+}
+#result , #outof{
+    opacity: 0.6;
+}
+#grade{
+    margin-bottom: 0%;
+    margin-top: 20%;
+}
+#number{
+    font-size: 3rem;
+    margin-bottom: 0;
+    margin-top: 10px;
+    font-weight: 700;
+}
+.pallet{
+    width: 100%;
+    height: 65%;
+    
+    
+}
+
+.marks{
+   
+    padding: 10px;
+    height: 4.3rem;
+    margin-top: 1rem;
+    align-items: center;
+    border-radius: 6px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    border-radius: 8px;
+   
+
+   
+}
+
+.const h4{
+    align-items: center;
+    
+}
+
+.mark-heading{
+    margin-right: 3rem;
+}
+
+.icon{
+    position: relative;
+    margin: 20px;
+    padding-right: 20px;
+   
+}
+
+#reac{
+    color: #ff5757;
+    background-color:#fff5f1;
+     
+}
+
+#memo{
+    color: #ffb01f;
+    background-color: #fdfee1;
+}
+#verb{
+    color: #00bd91;
+    background-color: #e9fdf4;
+}
+#visu{
+    color: #1125d4;
+    background-color: #e6e7e9;
+}
+
+.right_div h2{
+    display: flex;
+    margin: 6px;
+    padding-left: 20px;
+    padding-top: 8px;
+
+}
+
+#btn{
+    color: white;
+    border: none;
+    background-color: darkslategray;
+    width: 80%;
+    margin-top: 2rem;
+    border-radius: 12px;
+    height: 2.5rem;
+    margin-left: 10%;
+    
+   
+}
+
